@@ -1,1 +1,380 @@
 
+/*FUENTES*/
+@font-face {
+    font-family: 'SceneProBlack';
+    src: url('../fonts/SceneProBlack.eot');
+    src: url('../fonts/SceneProBlack.eot') format('embedded-opentype'),
+         url('../fonts/SceneProBlack.woff2') format('woff2'),
+         url('../fonts/SceneProBlack.woff') format('woff'),
+         url('../fonts/SceneProBlack.ttf') format('truetype'),
+         url('../fonts/SceneProBlack.svg#SceneProBlack') format('svg');
+}
+
+@font-face {
+    font-family: 'SceneProMedium';
+    src: url('../fonts/SceneProMedium.eot');
+    src: url('../fonts/SceneProMedium.eot') format('embedded-opentype'),
+         url('../fonts/SceneProMedium.woff2') format('woff2'),
+         url('../fonts/SceneProMedium.woff') format('woff'),
+         url('../fonts/SceneProMedium.ttf') format('truetype'),
+         url('../fonts/SceneProMedium.svg#SceneProMedium') format('svg');
+}
+
+@font-face {
+    font-family: 'SceneProBold';
+    src: url('../fonts/SceneProBold.eot');
+    src: url('../fonts/SceneProBold.eot') format('embedded-opentype'),
+         url('../fonts/SceneProBold.woff2') format('woff2'),
+         url('../fonts/SceneProBold.woff') format('woff'),
+         url('../fonts/SceneProBold.ttf') format('truetype'),
+         url('../fonts/SceneProBold.svg#SceneProBold') format('svg');
+}
+
+@font-face {
+    font-family: 'SceneProRegular';
+    src: url('../fonts/SceneProRegular.eot');
+    src: url('../fonts/SceneProRegular.eot') format('embedded-opentype'),
+         url('../fonts/SceneProRegular.woff2') format('woff2'),
+         url('../fonts/SceneProRegular.woff') format('woff'),
+         url('../fonts/SceneProRegular.ttf') format('truetype'),
+         url('../fonts/SceneProRegular.svg#SceneProRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'SceneProLight';
+    src: url('../fonts/SceneProLight.eot');
+    src: url('../fonts/SceneProLight.eot') format('embedded-opentype'),
+         url('../fonts/SceneProLight.woff2') format('woff2'),
+         url('../fonts/SceneProLight.woff') format('woff'),
+         url('../fonts/SceneProLight.ttf') format('truetype'),
+         url('../fonts/SceneProLight.svg#SceneProLight') format('svg');
+}
+
+.wrapper-onbike {
+	font-family: 'SceneProRegular';
+}
+/*FUENTES*/
+
+/*Inicio Menu*/
+.menu-onbike {
+	background-color: #ffffff;
+    /*color: #000000;*/
+    padding: 25px;
+    border: none;
+}
+.menu-onbike .navbar-nav >li>a {
+	color: black;
+	font-weight: 700;
+}
+.logo {
+	    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+/*Fin Menu*/
+
+/*INICIO CAROUSEL*/
+.wrapper-carousel{
+	width: 100%;
+	margin-bottom: 50px;
+}
+.control {
+    position: absolute;
+    bottom: 60px;
+    background-color: #111111;
+    color: #00ff01;
+    width: 40px;
+    height: 40px;
+    font-size: 2em;
+    text-align: center;	
+}
+.right {
+	right: 5%;
+}
+.left{
+	left: 5%;
+}
+.caption-slider {
+    background-color: #111111;
+    width: 25%;
+    bottom: -40px;
+    left: 10%;
+    padding: 20px;
+    height: 240px;
+}
+.title-carousel {
+    font-weight: 700;
+    width: 64%;
+    line-height: 18px;
+    text-transform: uppercase;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+.barra-verde {
+    background-color: #00ff01;
+    height: 20px;
+    width: 100%;
+    /* margin-right: 9%; */
+    position: relative;
+    right: 25%;
+    margin-bottom: 10px;
+}
+.control-arrow {
+    font-weight: 100;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,-50%);
+}
+.wrapper-iconos {
+    position: absolute;
+    right: 5%;
+    bottom: 20%;
+    color: white;
+    text-shadow: -4px 3px 2px rgba(150, 150, 150, 1);
+}
+.wrapper-iconos a {
+	color: white;
+	font-size: 1.7em;
+	    -webkit-transition: all 200ms ease;
+-moz-transition: all 200ms ease;
+-ms-transition: all 200ms ease;
+-o-transition: all 200ms ease;
+transition: all 200ms ease;
+}
+.wrapper-iconos a:hover, .wrapper-iconos a:focus  {
+	color: white;
+	text-decoration: none;
+	font-size: 2.2em;
+}
+.iconos {
+	margin-left: 20px;
+}
+.carousel-inside {
+	padding-bottom: 40px;
+}
+.fondo-carousel {
+	height: 600px;
+	background-image: url(../images/sagan.jpg);
+	background-size: cover;
+}
+a.link-carousel {
+    position: absolute;
+    bottom: 2px;
+    color: #00ff01;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    width: 100%;
+    left: 0;
+    height: 40px;
+    padding: 10px;
+}
+.link-barra {
+	width: 15px;
+	height: 40px;
+	background-color: #00ff01;
+	position: absolute;bottom: 0;
+	left: 0;
+}
+
+.indicators-slider{
+	bottom: 50px;
+}
+/*FINAL CAROUSEL*/
+
+/*BikeShop*/
+.bike-shop{
+	background-image: url(../images/dogma.png);
+	background-repeat: no-repeat;
+	background-position:-10% top;
+	padding-bottom: 30px;
+}
+
+.bike-title {
+	font-size: 3em;
+	line-height: 30px;
+	font-family: 'SceneProBlack';
+}
+.bike-subtitle {
+	font-size: 2.5em;
+	font-family: 'SceneProBlack';
+	line-height: 25px;
+}
+.bike-description{
+	background-color: white;
+}
+.comprarbici {
+	font-family: 'SceneProBlack';
+	padding-top: 15px;
+	text-transform: uppercase;
+}
+.comprarbici a{
+	color: #00ff01;
+}
+/*FIN BIKE SHOP*/
+
+/*INICIO CATEGORIAS DESTACADAS*/
+.cat-destacadas {
+	background-color: #262626;
+	color: white;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.title-cat{
+	font-size: 3em;
+	font-family: 'SceneProBlack';
+	line-height: 34px;
+	margin-bottom: 20px;
+}
+.text-negro {
+	background-color: #00ff01;
+    color: #000;
+    padding: 0;
+    padding-right: 50px;
+    font-size: 1.2em;
+    display: inline-block;
+}
+.categoria-left{
+	padding-top: 200px;
+	padding-bottom: 170px;
+}
+.categoria-right {
+	padding-top: 100px;
+}
+.img-cat{
+    position: absolute;
+    z-index: 99;
+    left: -50px;
+    top: -100px;
+}
+.img-cat-green {
+    display: block;
+    background-color: #00ff01;
+    width: 200px;
+    height: 250px;
+    transform: skewX(-20deg);
+    position: absolute;
+    top: -25px;
+    left: 5px;
+}
+.img-cat-white {
+    display: block;
+    background-color: white;
+    width: 200px;
+    height: 250px;
+    transform: skewX(-20deg);
+    position: absolute;
+    top: -50px;
+    left: -10px;
+    z-index: 98;
+}
+
+a {
+	color: #00ff01;
+    text-transform: uppercase;
+    font-family: 'SceneProBlack';
+}
+/*FIN CATEGORIAS DESTACADAS*/
+
+/*ENTRENA CON NOSOTROS*/
+.entrena {
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.5) 100%),url(../images/groupride.jpg);
+	background-size: cover;
+	height: 700px;
+	margin-top: -20px;
+	position: relative;
+}
+.entrena-title {
+	color: #fff;
+	font-family: 'SceneProBlack';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.entrena-title p {
+	font-family: 'SceneProRegular';
+}
+.entrena-title h1 {
+font-size: 3.5em;
+margin: 0;
+position: relative;
+}
+.entrena-title h1::before {
+width: 110%;
+height: 10px;
+background-color: #00ff01;
+content: " ";
+position: absolute;
+left: 50%;
+top: 50%;
+z-index: -1;
+margin-left: -55%;
+margin-top: -5px;
+}
+/*FIN ENTRENA CON NOSOTROS*/
+
+/*BLOG*/
+.blog {
+	padding: 30px;
+}
+.fecha {
+	font-family: 'SceneProBlack';
+}
+.fecha::after {
+    height: 4px;
+    width: 67%;
+    background-color: #00ff01;
+    content: " ";
+    display: inline-block;
+    position: absolute;
+    margin-top: 9px;
+    right: 15px;
+}
+.titulo-blog {
+	font-family: 'SceneProBlack'
+}
+/*FIN BLOG*/
+/*INSTAGRAM FEED*/
+.instagramfeed {
+	padding: 30px;
+}
+/*FIN INSTAGRAM FEED*/
+/*SECCION FOOTER*/
+.footer {
+	background-color: #000;
+	padding: 30px;
+	/*font-family: 'SceneProMedium';*/
+	color: #fff;
+}
+
+.text-footer{
+	color: #fff;
+	font-size: 1.2em;
+	font-family: 'SceneProBlack';
+}
+.iconos-footer{
+	font-size: 2em;
+}
+.iconos-footer a {
+	color: #fff;
+}
+/*FIN FOOTER*/
+
+/*MENU ABAJO*/
+.menu-bottom {
+	background-color: #262626;
+	margin:0;
+	color: white;
+    font-weight: 700;
+    padding: 30px;
+}
+.menu-bottom a {
+	color: white;
+}
+.menu-bottom li {
+    margin-left: 30px;
+    margin-right: 30px;
+}
